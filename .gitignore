@@ -1,0 +1,27 @@
+# Variables d'environnement (secrets)
+.env
+
+# Dépendances Composer (régénérables via composer install)
+# vendor/
+
+# Uploads utilisateurs (fichiers générés en runtime)
+public/uploads/avatars/*
+public/uploads/events/*
+public/uploads/projects/*
+!public/uploads/avatars/.gitkeep
+!public/uploads/events/.gitkeep
+!public/uploads/projects/.gitkeep
+
+# Logs et cache
+*.log
+logs/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# PHP
+*.cache

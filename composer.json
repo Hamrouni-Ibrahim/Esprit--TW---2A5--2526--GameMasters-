@@ -1,0 +1,22 @@
+{
+    "name": "gamemasters/projet01",
+    "description": "Game Masters Project",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "tecnickcom/tcpdf": "^6.7"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Game Masters Team",
+            "email": "contact@gamemasters.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.4.0"
+        }
+    }
+}
